@@ -47,9 +47,9 @@ $(function () {
                         </button>
                         <div class="dropdown-menu">
                           <div class="action-btn-wrap">
-                          <button class="action-btn edit-btn" onclick="openManageSourceModal(${id})" title="Edit">
+                          <button class="action-btn edit-btn" onclick="openCustomersModal(${id})" title="Edit">
                             <i class="fa-solid fa-pen-to-square"></i> Edit</button>
-                            <button class="action-btn delete-btn" onclick="removeSource(${full.id})" title="Delete">
+                            <button class="action-btn delete-btn" onclick="removeAdminUser(${full.id})" title="Delete">
                             <i class="fa-solid fa-trash"></i> Delete</button>
                           </div>
                         </div>
